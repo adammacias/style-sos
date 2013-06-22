@@ -1,15 +1,13 @@
 /*
    Style SOS
    Folha de Estilos de Classes CSS de Ajuda
-   Version: 1.0.0
+   Version: Beta
    Autor: Adam Macias <www.adammacias.com>
 */
 
 	/*	--------------------------------------------------------------------------------------------------
 	:: Tipografia
-	-------------------------------------------------------------------------------------------------- */
-	::-moz-selection, ::selection { background:#09C; color:white; text-shadow: none; }
-	
+	-------------------------------------------------------------------------------------------------- */	
 	.text-right { text-align: right; }
 	.text-left { text-align :left; }
 	.text-justify { text-align: justify; }
@@ -42,7 +40,7 @@
 	-------------------------------------------------------------------------------------------------- */
 	.margin-auto { margin:0 auto; float:none; }
 	
-	.no-margin { margin:0;}
+	.no-margin { margin:0; }
 	.no-margin-left { margin-left:0; }
 	.no-margin-right { margin-right:0; }
 	.no-margin-top { margin-top:0; }
@@ -139,44 +137,6 @@
 	.display-none, .hide, .hidden { display:none; }
 	
 	.hide-accessible { position:absolute; top:-9999px; left:-9999px; }
-	
-	/*	--------------------------------------------------------------------------------------------------
-	:: Colors and Backgrounds
-	-------------------------------------------------------------------------------------------------- */	
-	
-	/* Colors */
-	*.color-black: { color:#000; }
-	*.color-grayDarker: { color:#222; }
-	*.color-grayDark: { color:#333; }
-	*.color-gray: { color:#555; }
-	*.color-grayLight: { color:#999; }
-	*.color-grayLighter: { color:#eee; }
-	*.color-white: { color:#fff; }
-	*.color-blue:{ color: #049cdb; }
-	*.color-blueDark: { color:#0064cd; }
-	*.color-green: { color:#46a546; }
-	*.color-red: { color:#9d261d; }
-	*.color-yellow: { color:#ffc40d; }
-	*.color-orange: { color:#f89406; }
-	*.color-pink: { color:#c3325f; }
-	*.color-purple: { color:#7a43b6; }
-	
-	/* Backgrounds */
-	*.bg-black: { color:#000; }
-	*.bg-grayDarker: { color:#222; }
-	*.bg-grayDark: { color:#333; }
-	*.bg-gray: { color:#555; }
-	*.bg-grayLight: { color:#999; }
-	*.bg-grayLighter: { color:#eee; }
-	*.bg-white: { color:#fff; }
-	*.bg-blue:{ color: #049cdb; }
-	*.bg-blueDark: { color:#0064cd; }
-	*.bg-green: { color:#46a546; }
-	*.bg-red: { color:#9d261d; }
-	*.bg-yellow: { color:#ffc40d; }
-	*.bg-orange: { color:#f89406; }
-	*.bg-pink: { color:#c3325f; }
-	*.bg-purple: { color:#7a43b6; }
 	
 	/*	--------------------------------------------------------------------------------------------------
 	:: Cursors
